@@ -3,12 +3,16 @@ __copyright__ = "Copyright (C) 2018 Indu Sharma"
 __license__ = "Public Domain"
 __version__ = "1.0"
 
+""" Automatically create TimeLion Visualizations and set them as Dashboards with Python """
 
 import requests
 import json
 
 
 class Vizualize:
+    
+    """ Generic Utility to manupulate the Kibana TimeLion Visualizations """  
+    
     _id = 1001
 
     def __init__(self, title="AutomatedVisualisations_", ui="http://kibana:5601/",
@@ -60,6 +64,8 @@ class Vizualize:
 class Dashboards:
     _id = 5001
 
+     """ Generic Utility to manupulate the Kibana Dashboards """  
+    
     def __init__(self, title="AutomatedDashboards_", ui="http://kibana:5601/", api='api/saved_objects/dashboard/'):
         self.api = api
         self.ui = ui
