@@ -79,13 +79,13 @@ class Dashboards:
         title = self.title + str(self._id)
 
         panel_dict = []
-        x, y, i = 0, 0, 10
-        w = 20
-        h = 20
+        x, y, i = 0, 0, 0
+        w = 100
+        h = 2
         for viz in vizualizers:
-            i = + 1
+            i = i + 1
             viz_dict = {
-                "gridData": json.dumps({"w": w, "h": h, "x": x, "y": y, "i": str(i)}),
+                "gridData": {"w": w, "h": h, "x": x, "y": y, "i": str(i)},
                 "version": "6.1.3",
                 "panelIndex": str(i),
                 "type": "visualization",
