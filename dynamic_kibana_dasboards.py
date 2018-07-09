@@ -1,3 +1,9 @@
+__author__ = "Indu Sharma"
+__copyright__ = "Copyright (C) 2018 Indu Sharma"
+__license__ = "Public Domain"
+__version__ = "1.0"
+
+
 import requests
 import json
 
