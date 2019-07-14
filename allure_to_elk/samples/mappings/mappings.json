@@ -1,0 +1,21 @@
+{
+    "settings" : {
+    },
+    "mappings" : {
+                    "properties":{
+						"Start Time":{ "type":"date", "format":"yyyy-MM-dd HH:mm:ss||yyyy-MM-dd'T'HH:mm:ss.SSS'Z'||epoch_millis || E MMM dd HH:mm:ss z yyyy" },	
+						"Stop Time":{ "type":"text"},
+						"Duration in ms":{"type":"double"},
+						"Parent Suite":{"type":"text","fielddata":true},
+						"Suite":{"type":"text","fielddata":true},
+						"Sub Suite":{"type":"text","fielddata":true},
+						"Test Class":{"type":"text","fielddata":true},
+						"Test Method":{"type":"text","fielddata":true},
+						"Name":{"type":"text","fielddata":true},
+						"Description":{"type":"text"},
+						"Status":{"type":"text","fielddata":true}								  		 	
+                        }
+            	}	
+
+    
+}

@@ -1,0 +1,794 @@
+[
+  {
+    "_id": "2c415960-9a67-11e9-bd01-4fd4105a76ea",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[ZTAP] Root Cause Analysis of the tests Cases  ",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":22,\"w\":48,\"h\":11,\"i\":\"1\"},\"panelIndex\":\"1\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":7,\"w\":24,\"h\":15,\"i\":\"2\"},\"panelIndex\":\"2\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_1\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":33,\"w\":48,\"h\":16,\"i\":\"3\"},\"panelIndex\":\"3\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":7,\"w\":24,\"h\":15,\"i\":\"4\"},\"panelIndex\":\"4\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":49,\"w\":48,\"h\":13,\"i\":\"5\"},\"panelIndex\":\"5\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":62,\"w\":48,\"h\":15,\"i\":\"7\"},\"panelIndex\":\"7\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_5\"},{\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":7,\"i\":\"8\"},\"version\":\"7.1.1\",\"panelIndex\":\"8\",\"embeddableConfig\":{},\"panelRefName\":\"panel_6\"}]",
+      "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/w",
+      "timeFrom": "now/w",
+      "refreshInterval": {
+        "pause": true,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "dashboard": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "panel_0",
+        "type": "visualization",
+        "id": "48adcba0-9a63-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_1",
+        "type": "visualization",
+        "id": "91c34a20-9a65-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_2",
+        "type": "visualization",
+        "id": "8fef18a0-9a60-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_3",
+        "type": "visualization",
+        "id": "3c9d0430-9a5d-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_4",
+        "type": "visualization",
+        "id": "8a5c6a70-9a59-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_5",
+        "type": "search",
+        "id": "8c7098e0-9a63-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_6",
+        "type": "visualization",
+        "id": "ccac6570-9a67-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "c44317a0-97ef-11e9-bd01-4fd4105a76ea",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[ZTAP]Automated Test Cases Statistics",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":68,\"w\":48,\"h\":11,\"i\":\"1\"},\"panelIndex\":\"1\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_0\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":53,\"w\":22,\"h\":15,\"i\":\"2\"},\"panelIndex\":\"2\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_1\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Duration_Execution\":\"#962D82\"}}},\"gridData\":{\"x\":22,\"y\":53,\"w\":25,\"h\":15,\"i\":\"4\"},\"panelIndex\":\"4\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_2\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"gridData\":{\"x\":0,\"y\":38,\"w\":48,\"h\":15,\"i\":\"5\"},\"panelIndex\":\"5\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_3\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":17,\"w\":48,\"h\":21,\"i\":\"7\"},\"panelIndex\":\"7\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_4\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":6,\"w\":23,\"h\":11,\"i\":\"11\"},\"panelIndex\":\"11\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_5\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":23,\"y\":6,\"w\":25,\"h\":11,\"i\":\"13\"},\"panelIndex\":\"13\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":6,\"i\":\"14\"},\"panelIndex\":\"14\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_7\"}]",
+      "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-15m",
+      "refreshInterval": {
+        "pause": true,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "dashboard": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "panel_0",
+        "type": "search",
+        "id": "a5cd0170-97ed-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_1",
+        "type": "visualization",
+        "id": "7ddd3ab0-97eb-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_2",
+        "type": "visualization",
+        "id": "ceda8250-97f1-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_3",
+        "type": "visualization",
+        "id": "85f3e490-9806-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_4",
+        "type": "visualization",
+        "id": "2f6d63a0-9804-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_5",
+        "type": "visualization",
+        "id": "3f449a60-9835-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_6",
+        "type": "visualization",
+        "id": "16e909c0-9844-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_7",
+        "type": "visualization",
+        "id": "b9935f30-988b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "0f4605e0-9a71-11e9-bd01-4fd4105a76ea",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[ZTAP/ZDP] Automation Overview",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":11,\"i\":\"1\",\"w\":48,\"x\":0,\"y\":73},\"panelIndex\":\"1\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_0\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":15,\"i\":\"2\",\"w\":22,\"x\":0,\"y\":58},\"panelIndex\":\"2\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_1\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Duration_Execution\":\"#962D82\"}}},\"gridData\":{\"h\":15,\"i\":\"4\",\"w\":25,\"x\":22,\"y\":58},\"panelIndex\":\"4\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_2\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":true}},\"gridData\":{\"h\":15,\"i\":\"5\",\"w\":48,\"x\":0,\"y\":43},\"panelIndex\":\"5\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_3\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":21,\"i\":\"7\",\"w\":48,\"x\":0,\"y\":22},\"panelIndex\":\"7\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_4\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":11,\"i\":\"11\",\"w\":23,\"x\":0,\"y\":11},\"panelIndex\":\"11\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_5\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":11,\"i\":\"13\",\"w\":25,\"x\":23,\"y\":11},\"panelIndex\":\"13\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_6\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":6,\"i\":\"14\",\"w\":48,\"x\":0,\"y\":5},\"panelIndex\":\"14\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_7\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":5,\"i\":\"15\",\"w\":48,\"x\":0,\"y\":0},\"panelIndex\":\"15\",\"version\":\"7.1.1\",\"panelRefName\":\"panel_8\"}]",
+      "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/M",
+      "timeFrom": "now/M",
+      "refreshInterval": {
+        "pause": false,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "dashboard": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "panel_0",
+        "type": "search",
+        "id": "a5cd0170-97ed-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_1",
+        "type": "visualization",
+        "id": "7ddd3ab0-97eb-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_2",
+        "type": "visualization",
+        "id": "ceda8250-97f1-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_3",
+        "type": "visualization",
+        "id": "85f3e490-9806-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_4",
+        "type": "visualization",
+        "id": "2f6d63a0-9804-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_5",
+        "type": "visualization",
+        "id": "3f449a60-9835-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_6",
+        "type": "visualization",
+        "id": "16e909c0-9844-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_7",
+        "type": "visualization",
+        "id": "b9935f30-988b-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "panel_8",
+        "type": "visualization",
+        "id": "1bec0ca0-9a70-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea",
+    "_type": "index-pattern",
+    "_source": {
+      "title": "ztap-run-*",
+      "timeFieldName": "Start Time",
+      "fields": "[{\"name\":\"Description\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"Duration in ms\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"Name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Parent Suite\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Start Time\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"Status\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Stop Time\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"Sub Suite\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Suite\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Test Class\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Test Method\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"zdp_feature\",\"type\":\"string\",\"count\":1,\"scripted\":true,\"script\":\"doc['Test Class'].value.indexOf('test') < 1 ?  \\\"Others\\\"   : doc['Test Class'].value.substring(25, doc['Test Class'].value.indexOf('test')  ) \\n\",\"lang\":\"painless\",\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"Duration in Minutes\",\"type\":\"number\",\"count\":0,\"scripted\":true,\"script\":\"doc['Duration in ms'].value/1000/60\",\"lang\":\"painless\",\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false}]",
+      "fieldFormatMap": "{\"Duration in Minutes\":{}}"
+    },
+    "_migrationVersion": {
+      "index-pattern": "6.5.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea",
+    "_type": "index-pattern",
+    "_source": {
+      "title": "ztap-log-1*",
+      "timeFieldName": "time.start",
+      "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":2,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"description\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"flaky\",\"type\":\"boolean\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"fullName\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"newFailed\",\"type\":\"boolean\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"status\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"statusMessage\",\"type\":\"string\",\"count\":7,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"statusTrace\",\"type\":\"string\",\"count\":1,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"time.duration\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"time.start\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"zdp feature\",\"type\":\"string\",\"count\":1,\"scripted\":true,\"script\":\"doc['fullName'].value.indexOf('test') < 1 ?  \\\"Others\\\"   : doc['fullName'].value.substring(25, doc['fullName'].value.indexOf('test')  ) \",\"lang\":\"painless\",\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false}]",
+      "fieldFormatMap": "{\"zdp feature\":{}}"
+    },
+    "_migrationVersion": {
+      "index-pattern": "6.5.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "a5cd0170-97ed-11e9-bd01-4fd4105a76ea",
+    "_type": "search",
+    "_source": {
+      "title": "Total Automated Tests Progress - Trend ( Raw)",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Status",
+        "Test Method",
+        "Test Class",
+        "Name",
+        "Suite"
+      ],
+      "sort": [
+        "Start Time",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "search": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "8e81ebe0-9822-11e9-bd01-4fd4105a76ea",
+    "_type": "search",
+    "_source": {
+      "title": "Total Automated Tests - Details",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "Start Time",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "search": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "8c7098e0-9a63-11e9-bd01-4fd4105a76ea",
+    "_type": "search",
+    "_source": {
+      "title": "RCA - ZDP Features to Test Method & corresponding exceptions",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "zdp feature",
+        "statusTrace",
+        "statusMessage",
+        "fullName",
+        "status"
+      ],
+      "sort": [
+        "time.start",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "search": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "ceda8250-97f1-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 25 - Tests Taking Longest Time to Complete",
+      "visState": "{\"title\":\"Top 25 - Tests Taking Longest Time to Complete\",\"type\":\"horizontal_bar\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":200},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Test Execution Duration (Minutes)\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Test Execution Duration (Minutes)\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"lineWidth\":10}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"radiusRatio\":51,\"orderBucketsBySum\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"Duration in ms\",\"json\":\"{ \\\"script\\\":\\\"_value/1000/60\\\"\\n}\",\"customLabel\":\"Test Execution Duration (Minutes)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"Test Method\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other tests\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Test Method\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "ce527250-980c-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Tests Failed-passed-broken - Metric",
+      "visState": "{\"title\":\"Total Tests Failed-passed-broken - Metric\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":52}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"Test Method\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"Status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "1d215750-980a-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total ZTAP Tests Automated",
+      "visState": "{\"title\":\"Total ZTAP Tests Automated\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":120}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"Test Method\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "a45e4180-9835-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Tests Failed-passed-broken_non_uniq - Metric",
+      "visState": "{\"title\":\"Total Tests Failed-passed-broken_non_uniq - Metric\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":52}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"Status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "85f3e490-9806-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top - 50 ZDP Features Automated with respect tests execution Status",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"\"},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"ZDP Features\",\"field\":\"zdp_feature\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderAgg\":{\"enabled\":true,\"id\":\"2-orderAgg\",\"params\":{},\"schema\":{\"aggFilter\":[\"!top_hits\",\"!percentiles\",\"!median\",\"!std_dev\",\"!derivative\",\"!moving_avg\",\"!serial_diff\",\"!cumulative_sum\",\"!avg_bucket\",\"!max_bucket\",\"!min_bucket\",\"!sum_bucket\"],\"deprecate\":false,\"editor\":false,\"group\":\"none\",\"hideCustomLabel\":true,\"max\":null,\"min\":0,\"name\":\"orderAgg\",\"params\":[],\"title\":\"Order Agg\"},\"type\":\"count\"},\"orderBy\":\"custom\",\"otherBucket\":true,\"otherBucketLabel\":\"Other Features\",\"size\":50},\"schema\":\"segment\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customInterval\":\"2d\",\"drop_partials\":false,\"extended_bounds\":{},\"field\":\"Start Time\",\"interval\":\"w\",\"min_doc_count\":1,\"row\":false,\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true},\"schema\":\"split\",\"type\":\"date_histogram\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"field\":\"Status\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"group\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":true,\"rotate\":90,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"legendPosition\":\"right\",\"orderBucketsBySum\":true,\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":true,\"rotate\":75,\"show\":true,\"truncate\":100},\"name\":\"RightAxis-1\",\"position\":\"right\",\"scale\":{\"defaultYExtents\":true,\"mode\":\"normal\",\"setYExtents\":false,\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"title\":\"Top - 50 ZDP Features Automated with respect tests execution Status\",\"type\":\"histogram\"}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "16e909c0-9844-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Automated Tests Status Progress - Trend",
+      "visState": "{\"title\":\"Automated Tests Status Progress - Trend\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100,\"filter\":true,\"rotate\":75},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Test_Class - Automated\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"stacked\",\"type\":\"histogram\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"2\",\"label\":\"Test_Class - Automated\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":true},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Test_Class - Automated\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"48h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"Status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"2\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "32683c00-9823-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Automated Tests Progress - Trend",
+      "visState": "{\"title\":\"Total Automated Tests Progress - Trend\",\"type\":\"histogram\",\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":true,\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":1000,\"filter\":true,\"rotate\":75},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Test_Class - Automated\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"stacked\",\"type\":\"histogram\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"2\",\"label\":\"Test_Class - Automated\"},\"valueAxis\":\"ValueAxis-1\",\"interpolate\":\"step-after\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":true},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Test_Class - Automated\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"48h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "3f449a60-9835-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total ZTAP Tests Automated-non_uniq",
+      "visState": "{\"title\":\"Total ZTAP Tests Automated-non_uniq\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"Background\",\"colorsRange\":[{\"from\":0,\"to\":10000},{\"from\":10000,\"to\":20000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":true,\"labelColor\":false,\"subText\":\"\",\"fontSize\":47}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Counts So Far by the Week\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"group\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "4ed1c240-9886-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Failed Tests Cases - Trend",
+      "visState": "{\"title\":\"Total Failed Tests Cases - Trend\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000},{\"from\":100000,\"to\":200000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"Background\",\"percentageMode\":false,\"style\":{\"bgColor\":true,\"bgFill\":\"#000\",\"fontSize\":53,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Failed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"group\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"json\":\"\",\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "83793c40-9835-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Status of the Tests Cases - Trend",
+      "visState": "{\"title\":\"Status of the Tests Cases - Trend\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000},{\"from\":100000,\"to\":200000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"Background\",\"percentageMode\":false,\"style\":{\"bgColor\":true,\"bgFill\":\"#000\",\"fontSize\":53,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"json\":\"{    \\n  \\\"filter\\\" : { \\\"term\\\": { \\\"status\\\":\\\"passed\\\" \\n}\\n }\\n}\",\"customLabel\":\"\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"Status\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "6bd1c520-9886-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Skipped Tests Cases - Trend",
+      "visState": "{\"title\":\"Total Skipped Tests Cases - Trend\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000},{\"from\":100000,\"to\":200000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"Background\",\"percentageMode\":false,\"style\":{\"bgColor\":true,\"bgFill\":\"#000\",\"fontSize\":53,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Skipped\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"group\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"json\":\"\",\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "889f1f40-9886-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Broken Tests Cases - Trend",
+      "visState": "{\"title\":\"Total Broken Tests Cases - Trend\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000},{\"from\":100000,\"to\":200000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"Background\",\"percentageMode\":false,\"style\":{\"bgColor\":true,\"bgFill\":\"#000\",\"fontSize\":53,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Broken\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"group\",\"params\":{\"field\":\"Start Time\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"json\":\"\",\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "b9935f30-988b-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Input Controls] : Test case Status and Duration",
+      "visState": "{\"title\":\"[Input Controls] : Test case Status and Duration\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1561606002475\",\"fieldName\":\"Status\",\"parent\":\"\",\"label\":\"Test Cases Status\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1561606310431\",\"fieldName\":\"Duration in Minutes\",\"parent\":\"\",\"label\":\"Test Execution Time (In Min)\",\"type\":\"range\",\"options\":{\"decimalPlaces\":0,\"step\":1},\"indexPatternRefName\":\"control_1_index_pattern\"}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true,\"pinFilters\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "control_0_index_pattern",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "control_1_index_pattern",
+        "type": "index-pattern",
+        "id": "497c13f0-97f9-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "3c9d0430-9a5d-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "RCA - distribution of tests",
+      "visState": "{\"title\":\"RCA - distribution of tests\",\"type\":\"heatmap\",\"params\":{\"type\":\"heatmap\",\"addTooltip\":true,\"addLegend\":true,\"enableHover\":true,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Reds\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":true,\"percentageMode\":true,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":true},\"labels\":{\"show\":true,\"rotate\":270,\"overwriteColor\":false,\"color\":\"black\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"time.start\",\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true,\"interval\":\"w\",\"drop_partials\":false,\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"RCA distribution of tests\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"statusMessage\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0% - 10%\":\"rgb(103,0,13)\",\"10% - 20%\":\"rgb(152,12,19)\",\"20% - 30%\":\"rgb(188,20,26)\",\"30% - 40%\":\"rgb(217,38,35)\",\"40% - 50%\":\"rgb(241,68,50)\",\"50% - 60%\":\"rgb(251,106,74)\",\"60% - 70%\":\"rgb(252,138,106)\",\"70% - 80%\":\"rgb(252,171,142)\",\"80% - 90%\":\"rgb(253,202,181)\",\"90% - 100%\":\"rgb(254,228,216)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "8a5c6a70-9a59-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "RCA - Root Cause Of Tests not passing",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"testcase count\"},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Root Cause of Tests not Passing\",\"field\":\"statusMessage\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"size\":100},\"schema\":\"bucket\",\"type\":\"terms\"},{\"enabled\":true,\"id\":\"3\",\"params\":{\"customInterval\":\"2h\",\"customLabel\":\"RCA of Tests Weekly Trend\",\"drop_partials\":false,\"extended_bounds\":{},\"field\":\"time.start\",\"interval\":\"w\",\"min_doc_count\":1,\"row\":true,\"timeRange\":{\"from\":\"now/M\",\"to\":\"now/M\"},\"useNormalizedEsInterval\":true},\"schema\":\"split\",\"type\":\"date_histogram\"},{\"enabled\":true,\"id\":\"4\",\"params\":{\"customLabel\":\"Tests Status\",\"field\":\"status\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"bucket\",\"type\":\"terms\"}],\"params\":{\"perPage\":10,\"showMetricsAtAllLevels\":true,\"showPartialRows\":false,\"showTotal\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"title\":\"RCA - Root Cause Of Tests not passing\",\"type\":\"table\"}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "48adcba0-9a63-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "RCA - Popular Errors in failure/skipped Tests",
+      "visState": "{\"title\":\"RCA - Popular Errors in failure/skipped Tests\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":20,\"maxFontSize\":44,\"showLabel\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Counts\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"statusMessage\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Popular Errors\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "91c34a20-9a65-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "RCA - Unstable/Stable Tests distribution",
+      "visState": "{\"title\":\"RCA - Unstable/Stable Tests distribution\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":100},{\"from\":100,\"to\":20000}],\"labels\":{\"show\":true},\"invertColors\":true,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":true,\"subText\":\"\",\"fontSize\":109}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Unstable Tests\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"flaky\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"_key\",\"otherBucket\":true,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "ccac6570-9a67-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Input Controls ] - RCA of Tests",
+      "visState": "{\"title\":\"[Input Controls ] - RCA of Tests\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1561810405668\",\"fieldName\":\"flaky\",\"parent\":\"\",\"label\":\"Flaky Test ? 0-No, 1-Yes\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"dynamicOptions\":true,\"size\":2,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1561810471568\",\"fieldName\":\"statusTrace\",\"parent\":\"\",\"label\":\"Exception \",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"},\"indexPatternRefName\":\"control_1_index_pattern\"},{\"id\":\"1561810557242\",\"fieldName\":\"statusMessage\",\"parent\":\"\",\"label\":\"Test Fail Stage \",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"},\"indexPatternRefName\":\"control_2_index_pattern\"}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true,\"pinFilters\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": [
+      {
+        "name": "control_0_index_pattern",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "control_1_index_pattern",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      },
+      {
+        "name": "control_2_index_pattern",
+        "type": "index-pattern",
+        "id": "c3e72f10-9a2b-11e9-bd01-4fd4105a76ea"
+      }
+    ]
+  },
+  {
+    "_id": "1bec0ca0-9a70-11e9-bd01-4fd4105a76ea",
+    "_type": "visualization",
+    "_source": {
+      "title": "ZTAP - Main Page",
+      "visState": "{\"title\":\"ZTAP - Main Page\",\"type\":\"markdown\",\"params\":{\"fontSize\":19,\"openLinksInNewTab\":true,\"markdown\":\"**DashboardMenu**: [ZTAP Automation Statistics](#/dashboard/c44317a0-97ef-11e9-bd01-4fd4105a76ea) | [ZTAP Failure Tests - Root Cause Analysis](#/dashboard/2c415960-9a67-11e9-bd01-4fd4105a76ea)\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.1"
+    },
+    "_references": []
+  }
+]

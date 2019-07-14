@@ -1,0 +1,19 @@
+{
+    "settings" : {
+    },
+    "mappings" : {
+			
+                        "properties":{
+							"status":{"type":"text","fielddata":true }, 
+							"description":{"type":"keyword"},  
+							"flaky": {"type":"boolean"},
+							"statusTrace":{"type":"text", "fielddata":true}, 
+							"time.start":  { "type":"date", "format":"yyyy-MM-dd HH:mm:ss||yyyy-MM-dd'T'HH:mm:ss.SSS'Z'||epoch_millis || E MMM dd HH:mm:ss z yyyy" },
+							"time.duration": {"type":"double" },
+							"fullName": {"type":"text","fielddata":true },
+							"newFailed": {"type":"boolean"},
+							"statusMessage": {"type":"keyword"} 
+			}
+
+}
+}	
